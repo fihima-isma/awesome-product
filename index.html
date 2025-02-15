@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magacayga - Portfolio</title>
+    <style>
+        /* Naqshadeynta guud ee bogga */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Naqshadeynta header-ka */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header nav ul li a:hover {
+            color: #4CAF50;
+        }
+
+        /* Naqshadeynta qeybaha */
+        section {
+            padding: 40px 0;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #333;
+            font-size: 2rem;
+        }
+
+        .project {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project h3 {
+            margin-top: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #4CAF50;
+        }
+
+        /* Naqshadeynta footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            header nav ul {
+                text-align: center;
+            }
+
+            header nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            section {
+                padding: 20px 0;
+            }
+
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Magacayga</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Hordhac</a></li>
+                    <li><a href="#projects">Mashruucyada</a></li>
+                    <li><a href="#skills">Xirfadaha</a></li>
+                    <li><a href="#contact">Xiriir</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>Hordhac</h2>
+            <p>Waxaan ahay qof xiiseeya horumarinta webka. Waxaan isticmaalaa HTML, CSS, JavaScript iyo qaar kale si aan u abuuro bogag web ah.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Mashruucyada</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Faahfaahin ku saabsan mashruucan. Mashruucan wuxuu muujinayaa xirfadaha aan u leeyahay abuurista bogag web ah oo adeegsanaya HTML iyo CSS.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Faahfaahin ku saabsan mashruucan. Mashruucan wuxuu ka koobanyahay isticmaalka JavaScript iyo APIs si loo abuuro bog firfircoon.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Xirfadaha</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Xiriir</h2>
+            <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">Your LinkedIn Profile</a></p>
+            <p>GitHub: <a href="https://github.com/your-profile" target="_blank">Your GitHub</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Magacayga - Portfolio</p>
+        </div>
+    </footer>
+</body>
+</html>
